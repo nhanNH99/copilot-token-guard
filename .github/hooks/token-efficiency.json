@@ -1,0 +1,12 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "type": "command",
+        "command": "node .github/scripts/token-efficiency-audit.mjs --hook",
+        "cwd": ".",
+        "timeout": 5
+      }
+    ]
+  }
+}
