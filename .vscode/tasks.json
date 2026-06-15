@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Jest Agent: Verify Approved Plan",
+      "type": "process",
+      "command": "node",
+      "args": [
+        ".github/scripts/jest-agent-runner.mjs",
+        "verify"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [],
+      "group": "test"
+    }
+  ]
+}

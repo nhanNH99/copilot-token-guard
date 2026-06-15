@@ -1,4 +1,15 @@
-# Secure Token Kit cho GitHub Copilot
+# GitHub Copilot Local Automation Kits
+
+Repository gồm hai bộ automation local cho GitHub Copilot:
+
+1. **Secure Token Kit**: policy và audit giúp custom agents trả lời ngắn gọn,
+   nhất quán.
+2. **Jest Agent Automation Kit**: một custom agent, hooks và runner local để
+   plan, tạo, lint và đo coverage test React/Jest mà không cần paste log.
+
+Tài liệu Jest agent: [docs/jest-agent-automation.md](docs/jest-agent-automation.md).
+
+## Secure Token Kit
 
 Bộ cấu hình local-only giúp GitHub Copilot và các custom agent trong repository
 trả lời ngắn gọn hơn mà không cần plugin, package ngoài, MCP proxy, network hoặc

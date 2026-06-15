@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "requestPath": ".github/.cache/jest-agent/request.json",
+  "reportPath": ".github/.cache/jest-agent/report.json",
+  "coverageDirectory": ".github/.cache/jest-agent/coverage",
+  "jestResultPath": ".github/.cache/jest-agent/jest-results.json",
+  "allowedEditPatterns": [
+    "(^|/)(tests?|__tests__|__mocks__|test-utils|fixtures)/",
+    "\\.(test|spec)\\.[cm]?[jt]sx?$"
+  ],
+  "sourceExtensions": [
+    ".js",
+    ".jsx",
+    ".mjs",
+    ".cjs",
+    ".ts",
+    ".tsx"
+  ],
+  "jestArgs": [
+    "--runInBand"
+  ],
+  "maxOutputCharacters": 4000,
+  "timeouts": {
+    "formatSeconds": 30,
+    "verifySeconds": 180
+  }
+}
